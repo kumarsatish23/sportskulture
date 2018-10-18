@@ -1,9 +1,4 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
+
 h4, h5, h6,
 h1, h2, h3 {margin: 0;}
 ul, ol, li{margin: 0; padding: 0;}
@@ -763,7 +758,7 @@ div#profile p,div#home p,div#messages {
     font-size: 20px;
 }
 .tab-nike>li.active>a,.tab-nike>li.active>a:focus,.tab-nike>li.active>a:hover{
-    color: #100b0b;
+    color: #ffffff;
     background-color: #2a2a2e;
     border-radius: 0;
 }
@@ -926,13 +921,13 @@ ul.dropdown-menu1 {
 input#amount {
     border: 1px solid #aaa !important;
 }
-.single-bottom a p {
+.swimgoggles-bottom a p {
     font-weight: 400;
     color: #676262;
     margin-left: 5px;
     font-size: 13px;
 }
-.single-bottom a p:hover{
+.swimgoggles-bottom a p:hover{
     color: #fa5400;
 }
 /*--login-css--*/

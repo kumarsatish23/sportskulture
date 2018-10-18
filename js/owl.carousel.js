@@ -215,7 +215,7 @@ if (typeof Object.create !== "function") {
             if (base.options.responsive === false) {
                 return false;
             }
-            if (base.options.singleItem === true) {
+            if (base.options.swimgogglesItem === true) {
                 base.options.items = base.orignalItems = 1;
                 base.options.itemsCustom = false;
                 base.options.itemsDesktop = false;
@@ -619,7 +619,7 @@ if (typeof Object.create !== "function") {
                     base.css2slide(base.positionsInArray[position], 1);
                 }
                 base.afterGo();
-                base.singleItemTransition();
+                base.swimgogglesItemTransition();
                 return false;
             }
             goToPixel = base.positionsInArray[position];
@@ -1283,7 +1283,7 @@ if (typeof Object.create !== "function") {
             base.inClass = "owl-" + className + "-in";
         },
 
-        singleItemTransition : function () {
+        swimgogglesItemTransition : function () {
             var base = this,
                 outClass = base.outClass,
                 inClass = base.inClass,
@@ -1463,7 +1463,7 @@ if (typeof Object.create !== "function") {
         itemsTablet : [768, 2],
         itemsTabletSmall : false,
         itemsMobile : [479, 1],
-        singleItem : false,
+        swimgogglesItem : false,
         itemsScaleUp : false,
 
         slideSpeed : 200,
